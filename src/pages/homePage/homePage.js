@@ -38,7 +38,7 @@ function HomePage() {
           <h1>Hi, I am Saugat Rimal</h1>
         </div>
         <div class="second">
-          <h2>This is Under Construction Page</h2>
+          <h1>This is Under Construction Page</h1>
           <p>&lt; <a href="https://gitlab.com/saugatrimal/">Source Code In Gitlab</a>  &gt;</p>
         </div>
         <SocialCard />
