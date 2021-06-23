@@ -5,20 +5,20 @@ import images from "../../../config/images";
 const socials = [
   {
     name: "github",
-    link: "https://github.com/raisaugat",
+    link: "https://github.com/saugatrimal",
     icon: "github"
   },
   {
     name: "linkedIn",
-    link: "https://www.linkedin.com/in/saugat-rai-02385311a/",
+    link: "https://www.linkedin.com/in/saugatrimal/",
     icon: "linkedin"
   },
   {
     name: "codePen",
-    link: "https://codepen.io/Raisaugat/",
+    link: "https://codepen.io/saugatrimal/",
     icon: "codepen"
   },
-  { name: "dev", link: "https://dev.to/raisaugat", icon: "dev" }
+  { name: "dev", link: "https://dev.to/saugatrimal", icon: "dev" }
 ];
 
 function SocialCard() {
