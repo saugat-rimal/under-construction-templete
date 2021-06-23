@@ -35,11 +35,11 @@ function HomePage() {
     <div className="App">
       <div class="wrapper">
         <div class="reveal">
-          <h1>Welcome To Keeran Studio</h1>
+          <h1>Hi, I am Saugat Rimal</h1>
         </div>
         <div class="second">
-          <h1>The Site is Under Construction</h1>
-          <p>&lt; Manage  &gt;</p>
+          <h1>This is Under Construction Page</h1>
+          <p>&lt; Source Code In Github  &gt;</p>
         </div>
         <SocialCard />
       </div>
