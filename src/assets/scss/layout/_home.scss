@@ -1,0 +1,89 @@
+$text-color: #040F0F;
+
+.wrapper {
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .reveal, .second {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            top:0;right: 0px;
+            height: 100%;
+            z-index: 1;
+        }
+        &:before {
+            background-color: black;
+            animation: reveal 0.8s ease;
+        }
+        &:after {
+            background-color: #f5f84d;
+            animation: reveal 0.8s ease;
+            animation-delay: .2s;
+        }
+        h1 {
+            opacity: 0;
+            color: $text-color;
+            text-transform: uppercase;
+            animation: showText 1s forwards;
+            animation-delay: .2s;
+            margin-bottom: 1rem;
+        }
+        p {
+            opacity: 0;
+            color: $text-color;
+            animation: showText 1s forwards;
+            text-align: center;
+            font-size: 2.4rem;
+        }
+    }
+    .second {
+        opacity: 0;
+        margin-bottom: 2rem;
+        &:before {
+            background-color: black;
+            animation: reveal 0.8s ease;
+            animation-delay: 2s;
+        }
+        &:after {
+            background-color: #f5f84d;
+            animation: reveal 0.8s ease;
+            animation-delay: 2.4s;
+        }
+        h1 {
+            animation-delay: 2.2s;
+        }
+    }
+}
+
+
+@keyframes reveal {
+	0% {
+		left: 0;
+		width: 0;
+	}
+	50% {
+		width: 100%;
+		left: 0;
+	}
+	100% {
+		width: 0;
+		left: 100%;
+	}
+}
+
+@keyframes showText {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

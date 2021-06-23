@@ -1,0 +1,16 @@
+.socials {
+    a {
+        display: inline-block;
+        text-decoration: none;
+        margin: 0 1rem;
+        opacity: 0;
+        cursor: pointer;
+        i {
+            color: black;
+            font-size: 4rem;
+            &:hover {
+                color: #E63946;
+            }
+        }
+    }
+}
