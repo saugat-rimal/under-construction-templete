@@ -35,7 +35,7 @@ function HomePage() {
     <div className="App">
       <div class="wrapper">
         <div class="reveal">
-          <h1>Hi, I am Saugat Rimal</h1>
+          <h1>Hi, I am Saugat Rimal.</h1>
         </div>
         <div class="second">
           <h1>This is Under Construction Page</h1>
